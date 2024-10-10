@@ -1,0 +1,381 @@
+@charset "utf-8";
+* {
+font-family: 'Libre Baskerville', serif; font-style: italic;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+body{
+cursor: url("photos/cursor-4.png"), auto;
+/*cursor: url("photos/cursor-3.png"), pointer;*/
+}
+
+.btn{
+	height: 100px;
+	weight: 100px;
+	/*background:#DC143C;*/
+	border-radius:50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	cursor: pointer;
+}
+.icone{
+width:50px;
+}
+.projetflex{
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	margin-top:30px;
+}
+.projetG{
+	width: 30%;
+    /*background-color: green;*/
+	position: fixed;
+	height: 600px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.descriprojets p{
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; font-style: normal;
+   	font-size: 15px;
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-right: 60px;
+    color: #3F3F3F;
+    /*background-color: antiquewhite;*/
+    overflow-y: auto;
+	height: calc(100vh - 250px);
+}
+
+.projetD{
+	width: 70%;
+	/*background-color: indianred;*/
+}
+.photoprojet{
+	position: absolute;
+	width: 65.2%;
+	right: 0.5%;
+}
+
+.photo2{
+	width: 50%;
+	display: flex;
+	column-gap: 5px;
+	margin-bottom:5px;
+}
+
+
+.containerflex{
+	display: flex;
+	column-gap: 10px;
+	/*display:flex;align-items: center;*/
+}
+.infoG{
+	/*background-color: aqua;*/
+	width: 65%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+.infoD{
+	/*background-color: rosybrown;*/
+	width: 35%;
+	color:#2800E2;
+    text-align: center;
+	display:flex;justify-content: center;
+}
+
+.gifjemoije{
+	width: 30%;
+	/*background-color: brown;*/
+	position: fixed;
+	margin:1%;
+}
+
+.header{
+	display:flex;
+	flex-wrap:wrap;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	height: 5vh;
+	width: 100%;
+	color:#2800E2;
+	/*position:fixed;*/
+}
+
+.emmadmoizelaime{
+	/*font-size: 70px;*/
+	font-size:4.5vw;
+	color:#2800E2;
+}
+.book{
+	flex:1;
+	text-align: right;
+}
+.infos{
+	flex:1;
+	text-align: right;
+}
+.insta{
+	flex:1;
+	text-align: right;
+}
+.conteneur{
+	display:flex;
+	flex-wrap:wrap;
+	flex: 1;
+	column-gap: 5px;
+}
+.cgauche{
+	flex:1 1 30%;
+}
+.cmilieu{
+	flex:1 1 30%;
+}
+.cdroite{
+	flex:1 1 30%;
+}
+
+.diplomes{
+	flex: 1;
+	display:flex;
+	margin-bottom: -10px;
+}
+.texteinfos{
+	color:#2800E2;
+}
+.texteinfoD{
+	color:#2800E2;
+	position: fixed;
+	padding-top: 10%;
+    text-align: center;
+}
+.soustexteinfos{
+	padding-left:50px;
+	font-size:13px;
+}
+.projets{
+	background-color:aqua;
+	display:flex;
+	flex-wrap:wrap;
+	overflow: scroll;
+}
+.texteprojet{
+	padding-left:20px;
+	padding-right:20px;
+	width: 30%;
+	flex:1;
+	/*position: fixed;*/
+	display: flex;
+	position: absolute;
+	bottom:0;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+img{
+	max-width:100%;
+}
+iframe{
+	width: 100%;
+	height: 570px;
+}
+.body{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+.contenuprojet {
+position: relative;
+display:flex;
+flex-wrap:wrap;
+margin-bottom:5px;
+
+}
+.image {
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2800E2;
+}
+.contenuprojet:hover .overlay {
+  opacity: 1;
+}
+.textblocprojet {
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	padding: 20px;
+	display: flex;
+}
+.textblocprojetbas {
+	color: black;
+	font-size: 20px;
+	text-align: left;
+	padding: 20px;
+	display: flex;
+	position: absolute;
+	width: calc(100% - 40px);
+	bottom:0;
+}
+.tgauche{
+	color: white;
+	text-align:left;
+	flex: 50%;
+}
+.tdroite{
+	color: white;
+	text-align:right;
+	flex: 50%;
+}
+.tgaucheinfos{
+	color:#3F3F3F;
+	text-align:left;
+	flex: 50%;
+	padding-right:5px;
+}
+.tdroiteinfos{
+	color:#3F3F3F;
+	text-align:right;
+	flex: 50%;
+}
+.overlayphoto{
+	cursor: pointer;
+	color:#e39dff;
+}
+.overlayphoto:hover > .photocache{
+	opacity: 1;
+}
+.photocache{
+	position: absolute;
+	bottom:0%;
+	width:99%;
+	opacity: 0;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+	padding-top:10px;
+	font-size: 10px;
+	color:#9A9A9A;
+}
+
+@media (max-width:800px){
+	body{
+		/*background-color: green;*/
+	}
+	.conteneur{
+		display:block;
+	}
+	.emmadmoizelaime{
+		font-size:8vw;
+	}
+
+
+
+	.projetflex{
+		width: 100%;
+		display: block;
+	}
+
+	.projetG{
+		width: 100%;
+		position: static;
+		height: none;
+		height: auto;
+	}
+
+	.tdroiteinfos{
+		width: 90%;
+	}
+
+	.descriprojets{
+		display: block;
+		/*overflow-y:hidden;
+		text-overflow:inherit;*/
+		height: none;
+		height: auto;
+	}
+
+
+	.projetD{
+		width: 100%;
+		display: block;
+		position: static;
+	}
+
+	.photoprojet{
+		display: block;
+		width:100%;
+		position: static;
+	}
+
+	.photo2{
+		display: block;
+		width: 100%;
+		position: static;
+
+	}
+
+	.photocache{
+		position: static;
+		margin: 1%;
+		cursor:none;
+		opacity: 1;
+
+	}
+
+
+
+
+	/*.containerflex{
+	display:block;
+	width: 100%;
+	position: absolute;
+	}
+	.infoD{
+		display: block;align-items: center;
+		width: auto;
+		text-align: center;
+		/*position: absolute;*/
+	/*	width:100%;
+
+	}
+	.gifmoije{
+		width:100%;
+		/*display:block;*/
+	/*	position:absolute;
+		display: block;align-content: center;
+		/*position: absolute;*/
+	}
+	/*.infoG{
+		/*display: block;*/
+		/*width:95%;
+		position: absolute;
+
+	}
+
+
+	}
