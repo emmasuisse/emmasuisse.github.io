@@ -284,7 +284,7 @@ margin-bottom:5px;
 
 @media (max-width:900px){
 	body{
-		/*background-color: green;*/
+		background-color: green;
 	}
 	.conteneur{
 		display:block;
@@ -336,7 +336,6 @@ margin-bottom:5px;
 		display: block;
 		width: 100%;
 		position: static;
-
 	}
 
 	.photocache{
@@ -344,38 +343,4 @@ margin-bottom:5px;
 		margin: 1%;
 		cursor:none;
 		opacity: 1;
-
-	}
-
-
-
-
-	/*.containerflex{
-	display:block;
-	width: 100%;
-	position: absolute;
-	}
-	.infoD{
-		display: block;align-items: center;
-		width: auto;
-		text-align: center;
-		/*position: absolute;*/
-	/*	width:100%;
-
-	}
-	.gifmoije{
-		width:100%;
-		/*display:block;*/
-	/*	position:absolute;
-		display: block;align-content: center;
-		/*position: absolute;*/
-	}
-	/*.infoG{
-		/*display: block;*/
-		/*width:95%;
-		position: absolute;
-
-	}
-
-
 	}
