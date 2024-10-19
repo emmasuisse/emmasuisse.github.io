@@ -282,7 +282,6 @@ margin-bottom:5px;
 	color:#9A9A9A;
 }
 
-@media only screen and (min-width: 600px) {...} 
 @media screen and (orientation: portrait){
 	body{
 		background-color: green;
@@ -320,10 +319,10 @@ margin-bottom:5px;
 	}
 	
 	.texteinfos{
-		font-size: 2vw;
+		font-size: 2.6vw;
 	}	
 	.infoD{
-		font-size: 2vw;
+		font-size: 2.3vw;
 	}
 	
 	
