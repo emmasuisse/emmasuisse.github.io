@@ -292,8 +292,9 @@ margin-bottom:5px;
 	.emmadmoizelaime{
 		font-size:8vw;
 	}
-
-
+	.header{
+		font-size: 3vw;
+	}
 
 	.projetflex{
 		width: 100%;
@@ -309,8 +310,22 @@ margin-bottom:5px;
 
 	.tdroiteinfos{
 		width: 90%;
+		font-size: 3vw;
 	}
 
+	.tgaucheinfos{
+		width: 90%;
+		font-size: 3vw;
+	}
+	
+	.texteinfos{
+		font-size: 2vw;
+	}	
+	.infoD{
+		font-size: 2vw;
+	}
+	
+	
 	.descriprojets{
 		display: block;
 		/*overflow-y:hidden;
