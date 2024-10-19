@@ -282,7 +282,7 @@ margin-bottom:5px;
 	color:#9A9A9A;
 }
 
-@media screen and (max-width:900px){
+@media screen and (orientation: portrait){
 	body{
 		background-color: green;
 	}
