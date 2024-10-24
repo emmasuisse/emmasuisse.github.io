@@ -289,6 +289,15 @@ margin-bottom:5px;
 	.conteneur{
 		display:block;
 	}
+	.footer{
+		font-size: 2vw;
+	}
+	.textblocprojet{
+		font-size: 3vw;
+	}
+	.textblocprojetbas{
+		font-size: 3vw;
+	}
 	.emmadmoizelaime{
 		font-size:8vw;
 	}
