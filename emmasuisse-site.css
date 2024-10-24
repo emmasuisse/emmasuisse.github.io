@@ -286,6 +286,10 @@ margin-bottom:5px;
 	body{
 		/*background-color: green;*/
 	}
+	.btn{
+		height:300px;
+		weight:300px;
+	}
 	.conteneur{
 		display:block;
 	}
@@ -294,7 +298,7 @@ margin-bottom:5px;
 	}
 	.descriprojets p{
 		font-size: 3.5vw;
-		margin-bottom: -980px;
+		margin-bottom: -200px;
 	}
 	.textblocprojet{
 		font-size: 3vw;
