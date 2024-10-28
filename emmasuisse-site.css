@@ -286,9 +286,9 @@ margin-bottom:5px;
 	body{
 		/*background-color: green;*/
 	}
-	.btn{
-		height:3vw;
-		weight:3vw;
+	.btn img{
+	height: 12vw;
+	width: 12vw;
 	}
 	.conteneur{
 		display:block;
@@ -297,21 +297,26 @@ margin-bottom:5px;
 		font-size: 2vw;
 	}
 	.descriprojets p{
-		font-size: 3.5vw;
-		margin-bottom: -200px;
+		font-size: 4vw;
+		margin-bottom: -200px
+		display: block;
+		/*overflow-y:hidden;
+		text-overflow:inherit;*/
+		height: none;
+		height: auto;;
 	}
 	.textblocprojet{
-		font-size: 3vw;
+		font-size: 4vw;
 	}
 	.textblocprojetbas{
-		font-size: 3vw;
+		font-size: 4vw;
 	}
 	.emmadmoizelaime{
 		font-size:8vw;
 	}
 	.header{
 		margin-top: 30px;
-		font-size: 3vw;
+		font-size: 4vw;
 	}
 
 	.projetflex{
@@ -327,34 +332,24 @@ margin-bottom:5px;
 	}
 
 	.tdroiteinfos{
-		width: 90%;
-		font-size: 3vw;
+		width: 100%;
+		font-size: 4vw;
 	}
 
 	.tgaucheinfos{
-		width: 90%;
-		font-size: 3vw;
+		width: 100%;
+		font-size: 4vw;
 	}
 	
 	.texteinfos{
-		font-size: 3vw;
+		font-size: 4vw;
 	}	
 	.infoD{
-		font-size: 2.3vw;
+		font-size: 3vw;
 	}
 	
-	
-	.descriprojets{
-		display: block;
-		/*overflow-y:hidden;
-		text-overflow:inherit;*/
-		height: none;
-		height: auto;
-	}
-
-
 	.projetD{
-		width: 100%;
+		width: 105.5%;
 		display: block;
 		position: static;
 	}
